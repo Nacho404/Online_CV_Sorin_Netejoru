@@ -52,13 +52,6 @@
 
 /* Medium devices (desktops, 992px and up) for screen between 768px and 992px*/
 @media (min-width: 768px) and (max-width: 992px) { 
-
-    #about-me #container-description img {
-        width: 300px;
-        height: 200px;
-    }
-
-
 }
 
 /* for screen between 992px and 1200 */
@@ -83,12 +76,6 @@
         margin-right: 30px;
         border-radius: 20px;
     }
-
-    #about-me #container-description img {
-        width: 300px;
-        height: 200px;
-    }
-
     /* Professional experience */
 
     #professional-experience img, #courses-certificates img {
