@@ -1,10 +1,13 @@
 const startWorkJob1 = document.querySelector("#start-work-job1");
 const startWorkJob2 = document.querySelector("#start-work-job2");
 const startWorkJob3 = document.querySelector("#start-work-job3");
+const startWorkJob4 = document.querySelector("#start-work-job4");
 
 const endWorkJob1 = document.querySelector("#end-work-job1");
 const endWorkJob2 = document.querySelector("#end-work-job2");
 const endWorkJob3 = document.querySelector("#end-work-job3");
+const endWorkJob4 = document.querySelector("#end-work-job4");
+
 console.log([startWorkJob1])
 
 // Calculate -> total work
@@ -49,8 +52,10 @@ function totalWorkJob(startWork, endWork, company) {
             return "#total-time-worked-job1";
         } else if(company == "flanco") {
             return "#total-time-worked-job2"
-        } else if(company == "cegeka") {
+        } else if(company == "cegekaInternship") {
             return "#total-time-worked-job3"
+        } else if(company == "cegekaJunior") {
+            return "#total-time-worked-job4"
         }
     }
 
@@ -135,7 +140,8 @@ function totalWorkJob(startWork, endWork, company) {
 
 totalWorkJob(startWorkJob1, endWorkJob1, "lidl");
 totalWorkJob(startWorkJob2, endWorkJob2, "flanco");
-totalWorkJob(startWorkJob3, endWorkJob3, "cegeka");
+totalWorkJob(startWorkJob3, endWorkJob3, "cegekaInternship");
+totalWorkJob(startWorkJob4, endWorkJob4, "cegekaJunior");
 
 // ...see more & ...see less BTN functionality
 
